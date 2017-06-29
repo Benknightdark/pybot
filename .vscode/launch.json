@@ -18,12 +18,25 @@
             ]
         },
          {
-            "name": "Python3",
+            "name": "Python3.6",
             "type": "python",
             "request": "launch",
             "stopOnEntry": true,
             "program": "${file}",
             "pythonPath": "/usr/local/Cellar/python3/3.6.1",
+            "debugOptions": [
+                "WaitOnAbnormalExit",
+                "WaitOnNormalExit",
+                "RedirectOutput"
+            ]
+        },
+        {
+            "name": "Python3.5",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": true,
+            "program": "${file}",
+            "pythonPath": "/usr/local/Cellar/python3/3.5.0",
             "debugOptions": [
                 "WaitOnAbnormalExit",
                 "WaitOnNormalExit",
